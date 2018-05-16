@@ -24,5 +24,7 @@ namespace FinalTasksManager.Models
                 return Tasks.All(task => task.IsCompleted);
             }
         }
+
+        public ProjectLock Lock { get; set; }
     }
 }

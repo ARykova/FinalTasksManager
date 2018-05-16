@@ -23,5 +23,9 @@ namespace FinalTasksManager.Models
         public List<Task> SubTasks { get; set; }
 
         public bool IsCompleted { get; set; } = false;
+
+        public int ProjectId { get; set; }
+        public Project Project { get; set; }
+        
     }
 }
